@@ -1,0 +1,106 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.15559",
+   "Default View_TopLeft":"138,512",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1490 -y 20 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1490 -y 140 -defaultsOSRD
+preplace port port-id_SPI0_SS_O_0 -pg 1 -lvl 5 -x 1490 -y 350 -defaultsOSRD
+preplace port port-id_SPI0_MOSI_O_0 -pg 1 -lvl 5 -x 1490 -y 320 -defaultsOSRD
+preplace port port-id_SPI0_SCLK_O_0 -pg 1 -lvl 5 -x 1490 -y 290 -defaultsOSRD
+preplace port port-id_ulite_rx_I_0 -pg 1 -lvl 0 -x 0 -y 800 -defaultsOSRD
+preplace port port-id_ulite_tx_O_0 -pg 1 -lvl 5 -x 1490 -y 690 -defaultsOSRD
+preplace port port-id_PTT1_I -pg 1 -lvl 0 -x 0 -y 850 -defaultsOSRD
+preplace port port-id_PTT2_I -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace port port-id_FAULT_I -pg 1 -lvl 0 -x 0 -y 940 -defaultsOSRD
+preplace portBus Dout_0 -pg 1 -lvl 5 -x 1490 -y 80 -defaultsOSRD
+preplace portBus LED_D5 -pg 1 -lvl 5 -x 1490 -y 1210 -defaultsOSRD
+preplace portBus LED_D6 -pg 1 -lvl 5 -x 1490 -y 510 -defaultsOSRD
+preplace portBus LED_D7 -pg 1 -lvl 5 -x 1490 -y 750 -defaultsOSRD
+preplace portBus LED_D8 -pg 1 -lvl 5 -x 1490 -y 1550 -defaultsOSRD
+preplace portBus lna144_O -pg 1 -lvl 5 -x 1490 -y 620 -defaultsOSRD
+preplace portBus pa144_O -pg 1 -lvl 5 -x 1490 -y 1440 -defaultsOSRD
+preplace portBus a144_O -pg 1 -lvl 5 -x 1490 -y 860 -defaultsOSRD
+preplace portBus lna430_O -pg 1 -lvl 5 -x 1490 -y 1320 -defaultsOSRD
+preplace portBus pa430_O -pg 1 -lvl 5 -x 1490 -y 1100 -defaultsOSRD
+preplace portBus a430_O -pg 1 -lvl 5 -x 1490 -y 980 -defaultsOSRD
+preplace portBus I2C0_SDA -pg 1 -lvl 5 -x 1490 -y 230 -defaultsOSRD
+preplace portBus I2C0_SCL -pg 1 -lvl 5 -x 1490 -y 410 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 230 -y 240 -defaultsOSRD
+preplace inst VDD -pg 1 -lvl 1 -x 230 -y 520 -defaultsOSRD
+preplace inst LCD -pg 1 -lvl 4 -x 1310 -y 80 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 3 -x 960 -y 670 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 630 -y 660 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 230 -y 700 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -x 1310 -y 510 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -x 1310 -y 1210 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 2 -x 630 -y 870 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 4 -x 1310 -y 860 -defaultsOSRD
+preplace inst util_vector_logic_4 -pg 1 -lvl 4 -x 1310 -y 980 -defaultsOSRD
+preplace inst util_vector_logic_5 -pg 1 -lvl 4 -x 1310 -y 1440 -defaultsOSRD
+preplace inst util_vector_logic_6 -pg 1 -lvl 4 -x 1310 -y 620 -defaultsOSRD
+preplace inst util_vector_logic_7 -pg 1 -lvl 4 -x 1310 -y 1320 -defaultsOSRD
+preplace inst util_vector_logic_8 -pg 1 -lvl 4 -x 1310 -y 1100 -defaultsOSRD
+preplace inst util_vector_logic_9 -pg 1 -lvl 3 -x 960 -y 1020 -defaultsOSRD
+preplace inst util_vector_logic_10 -pg 1 -lvl 4 -x 1310 -y 1550 -defaultsOSRD
+preplace inst util_vector_logic_11 -pg 1 -lvl 4 -x 1310 -y 750 -defaultsOSRD
+preplace inst sequencerip_0 -pg 1 -lvl 3 -x 960 -y 870 -defaultsOSRD
+preplace inst ad_iobuf_SDA -pg 1 -lvl 4 -x 1310 -y 220 -defaultsOSRD
+preplace inst ad_iobuf_SCL -pg 1 -lvl 4 -x 1310 -y 400 -defaultsOSRD
+preplace netloc FAULT_I_1 1 0 3 NJ 940 NJ 940 800
+preplace netloc Net 1 3 1 1130 630n
+preplace netloc Net1 1 4 1 NJ 230
+preplace netloc Net2 1 4 1 NJ 410
+preplace netloc PTT1_I_1 1 0 2 NJ 850 450J
+preplace netloc PTT2_I_1 1 0 2 NJ 880 NJ
+preplace netloc VDD_dout 1 1 1 430 340n
+preplace netloc ad_iobuf_0_dio_o 1 1 4 470J 150 NJ 150 NJ 150 1450
+preplace netloc ad_iobuf_1_dio_o 1 1 4 NJ 220 NJ 220 1130J 300 1450
+preplace netloc axi_uartlite_0_interrupt 1 0 4 30 580 450J 520 NJ 520 1100
+preplace netloc axi_uartlite_0_tx 1 3 2 1110J 690 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 590 440 510 780
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 600 420
+preplace netloc processing_system7_0_GPIO_O 1 1 3 NJ 80 NJ 80 NJ
+preplace netloc processing_system7_0_I2C0_SCL_O 1 1 3 NJ 240 NJ 240 1120
+preplace netloc processing_system7_0_I2C0_SCL_T 1 1 3 NJ 260 NJ 260 1110
+preplace netloc processing_system7_0_I2C0_SDA_O 1 1 3 NJ 180 NJ 180 1150
+preplace netloc processing_system7_0_I2C0_SDA_T 1 1 3 NJ 200 NJ 200 1130
+preplace netloc processing_system7_0_SPI0_MOSI_O 1 1 4 NJ 320 NJ 320 NJ 320 NJ
+preplace netloc processing_system7_0_SPI0_SCLK_O 1 1 4 NJ 300 NJ 300 1100J 290 NJ
+preplace netloc processing_system7_0_SPI0_SS_O 1 1 4 470J 330 NJ 330 NJ 330 1460J
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 480 800 790
+preplace netloc rx_0_1 1 0 4 NJ 800 470J 500 NJ 500 1110
+preplace netloc sequencerip_0_a144 1 3 1 1140 850n
+preplace netloc sequencerip_0_a430 1 3 1 1120 920n
+preplace netloc sequencerip_0_lna144 1 3 1 1120 510n
+preplace netloc sequencerip_0_lna430 1 3 1 1110 880n
+preplace netloc sequencerip_0_pa144 1 3 1 1100 840n
+preplace netloc sequencerip_0_pa430 1 3 1 1150 750n
+preplace netloc util_vector_logic_0_Res 1 4 1 NJ 510
+preplace netloc util_vector_logic_10_Res 1 4 1 NJ 1550
+preplace netloc util_vector_logic_11_Res 1 4 1 NJ 750
+preplace netloc util_vector_logic_1_Res 1 4 1 NJ 1210
+preplace netloc util_vector_logic_2_Res 1 2 1 770 850n
+preplace netloc util_vector_logic_3_Res 1 4 1 NJ 860
+preplace netloc util_vector_logic_4_Res 1 4 1 NJ 980
+preplace netloc util_vector_logic_5_Res 1 4 1 NJ 1440
+preplace netloc util_vector_logic_6_Res 1 4 1 NJ 620
+preplace netloc util_vector_logic_7_Res 1 4 1 NJ 1320
+preplace netloc util_vector_logic_8_Res 1 4 1 NJ 1100
+preplace netloc xlslice_0_Dout 1 4 1 NJ 80
+preplace netloc processing_system7_0_DDR 1 1 4 470J 20 NJ 20 NJ 20 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 120 NJ 120 1150J 140 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 460 380n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 N 650
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 770 670n
+levelinfo -pg 1 0 230 630 960 1310 1490
+pagesize -pg 1 -db -bbox -sgen -120 0 1640 1610
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"1",
+   "da_ps7_cnt":"1"
+}
